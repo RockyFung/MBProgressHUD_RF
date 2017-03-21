@@ -15,6 +15,16 @@
 		5C8338A51E80C959006456E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338A31E80C959006456E8 /* LaunchScreen.storyboard */; };
 		5C8338B01E80C959006456E8 /* MBProgressHUD_RFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8338AF1E80C959006456E8 /* MBProgressHUD_RFTests.m */; };
 		5C8338BB1E80C959006456E8 /* MBProgressHUD_RFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8338BA1E80C959006456E8 /* MBProgressHUD_RFUITests.m */; };
+		5C8338CB1E80CE24006456E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8338CA1E80CE24006456E8 /* MBProgressHUD.m */; };
+		5C8338CE1E80CEA9006456E8 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8338CD1E80CEA9006456E8 /* MBProgressHUD+Add.m */; };
+		5C8338D81E80D009006456E8 /* MBHUD_Error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D01E80D009006456E8 /* MBHUD_Error@2x.png */; };
+		5C8338D91E80D009006456E8 /* MBHUD_Error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D11E80D009006456E8 /* MBHUD_Error@3x.png */; };
+		5C8338DA1E80D009006456E8 /* MBHUD_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D21E80D009006456E8 /* MBHUD_Info@2x.png */; };
+		5C8338DB1E80D009006456E8 /* MBHUD_Info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D31E80D009006456E8 /* MBHUD_Info@3x.png */; };
+		5C8338DC1E80D009006456E8 /* MBHUD_Success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D41E80D009006456E8 /* MBHUD_Success@2x.png */; };
+		5C8338DD1E80D009006456E8 /* MBHUD_Success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D51E80D009006456E8 /* MBHUD_Success@3x.png */; };
+		5C8338DE1E80D009006456E8 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D61E80D009006456E8 /* MBHUD_Warn@2x.png */; };
+		5C8338DF1E80D009006456E8 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8338D71E80D009006456E8 /* MBHUD_Warn@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		5C8338B61E80C959006456E8 /* MBProgressHUD_RFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBProgressHUD_RFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8338BA1E80C959006456E8 /* MBProgressHUD_RFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_RFUITests.m; sourceTree = "<group>"; };
 		5C8338BC1E80C959006456E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8338C91E80CE24006456E8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5C8338CA1E80CE24006456E8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5C8338CC1E80CEA9006456E8 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		5C8338CD1E80CEA9006456E8 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		5C8338D01E80D009006456E8 /* MBHUD_Error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Error@2x.png"; sourceTree = "<group>"; };
+		5C8338D11E80D009006456E8 /* MBHUD_Error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Error@3x.png"; sourceTree = "<group>"; };
+		5C8338D21E80D009006456E8 /* MBHUD_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Info@2x.png"; sourceTree = "<group>"; };
+		5C8338D31E80D009006456E8 /* MBHUD_Info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Info@3x.png"; sourceTree = "<group>"; };
+		5C8338D41E80D009006456E8 /* MBHUD_Success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Success@2x.png"; sourceTree = "<group>"; };
+		5C8338D51E80D009006456E8 /* MBHUD_Success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Success@3x.png"; sourceTree = "<group>"; };
+		5C8338D61E80D009006456E8 /* MBHUD_Warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@2x.png"; sourceTree = "<group>"; };
+		5C8338D71E80D009006456E8 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,7 @@
 		5C8338941E80C959006456E8 /* MBProgressHUD_RF */ = {
 			isa = PBXGroup;
 			children = (
+				5C8338C81E80CE09006456E8 /* MBProgressHUD_Add */,
 				5C8338981E80C959006456E8 /* AppDelegate.h */,
 				5C8338991E80C959006456E8 /* AppDelegate.m */,
 				5C83389B1E80C959006456E8 /* ViewController.h */,
@@ -138,6 +161,33 @@
 				5C8338BC1E80C959006456E8 /* Info.plist */,
 			);
 			path = MBProgressHUD_RFUITests;
+			sourceTree = "<group>";
+		};
+		5C8338C81E80CE09006456E8 /* MBProgressHUD_Add */ = {
+			isa = PBXGroup;
+			children = (
+				5C8338CF1E80D009006456E8 /* Icons */,
+				5C8338C91E80CE24006456E8 /* MBProgressHUD.h */,
+				5C8338CA1E80CE24006456E8 /* MBProgressHUD.m */,
+				5C8338CC1E80CEA9006456E8 /* MBProgressHUD+Add.h */,
+				5C8338CD1E80CEA9006456E8 /* MBProgressHUD+Add.m */,
+			);
+			path = MBProgressHUD_Add;
+			sourceTree = "<group>";
+		};
+		5C8338CF1E80D009006456E8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5C8338D01E80D009006456E8 /* MBHUD_Error@2x.png */,
+				5C8338D11E80D009006456E8 /* MBHUD_Error@3x.png */,
+				5C8338D21E80D009006456E8 /* MBHUD_Info@2x.png */,
+				5C8338D31E80D009006456E8 /* MBHUD_Info@3x.png */,
+				5C8338D41E80D009006456E8 /* MBHUD_Success@2x.png */,
+				5C8338D51E80D009006456E8 /* MBHUD_Success@3x.png */,
+				5C8338D61E80D009006456E8 /* MBHUD_Warn@2x.png */,
+				5C8338D71E80D009006456E8 /* MBHUD_Warn@3x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +299,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8338D81E80D009006456E8 /* MBHUD_Error@2x.png in Resources */,
+				5C8338DC1E80D009006456E8 /* MBHUD_Success@2x.png in Resources */,
+				5C8338DB1E80D009006456E8 /* MBHUD_Info@3x.png in Resources */,
+				5C8338DA1E80D009006456E8 /* MBHUD_Info@2x.png in Resources */,
+				5C8338DF1E80D009006456E8 /* MBHUD_Warn@3x.png in Resources */,
+				5C8338D91E80D009006456E8 /* MBHUD_Error@3x.png in Resources */,
+				5C8338DD1E80D009006456E8 /* MBHUD_Success@3x.png in Resources */,
 				5C8338A51E80C959006456E8 /* LaunchScreen.storyboard in Resources */,
+				5C8338DE1E80D009006456E8 /* MBHUD_Warn@2x.png in Resources */,
 				5C8338A21E80C959006456E8 /* Assets.xcassets in Resources */,
 				5C8338A01E80C959006456E8 /* Main.storyboard in Resources */,
 			);
@@ -278,7 +336,9 @@
 			files = (
 				5C83389D1E80C959006456E8 /* ViewController.m in Sources */,
 				5C83389A1E80C959006456E8 /* AppDelegate.m in Sources */,
+				5C8338CE1E80CEA9006456E8 /* MBProgressHUD+Add.m in Sources */,
 				5C8338971E80C959006456E8 /* main.m in Sources */,
+				5C8338CB1E80CE24006456E8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
